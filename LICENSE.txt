@@ -1,0 +1,346 @@
+================================================================================
+                    EVERYTECH AI PLATFORM LICENSE AGREEMENT
+================================================================================
+
+                         PROPRIETARY & CONFIDENTIAL
+
+                    Copyright (c) 2026 Dmultichoice Digital Solutions
+                           Author: Lucky Joy O.
+                         Website: https://dmultichoice.com
+                         Contact: +234 815 848 4621
+                         License Code: EYE-234-815-848-4621-2026
+
+================================================================================
+                              1. DEFINITIONS
+================================================================================
+
+"Software" refers to the EveryTech AI platform, including but not limited to:
+- Premium eBook generation system (30-150 pages)
+- AI-Generated image creation via DALL-E 3
+- Professional video production with voiceover
+- Dynamic pricing engine
+- React 18 + TypeScript frontend
+- Node.js 20 + Express backend
+- All associated documentation, code, and intellectual property
+
+"Licensor" refers to Dmultichoice Digital Solutions, owned and operated by 
+Lucky Joy O., with registered contact at +234 815 848 4621 and website at 
+https://dmultichoice.com.
+
+"Licensee" refers to any individual or entity accessing or using the Software.
+
+"License Code" EYE-234-815-848-4621-2026 is the unique identifier for this 
+licensing agreement and must be referenced in all communications.
+
+================================================================================
+                         2. LICENSE GRANT & SCOPE
+================================================================================
+
+Subject to strict compliance with this Agreement, Licensor grants Licensee a 
+limited, non-exclusive, non-transferable, non-sublicensable, revocable license 
+to access and use the Software solely for internal business purposes as 
+explicitly defined in the selected pricing tier:
+
+    Tier              Pages    Chapters    Video Length    Price Range
+    ─────────────────────────────────────────────────────────────────
+    Basic             30       5           5 min           $19-29
+    Standard          60       8           15 min          $39-59
+    Premium           100      12          30 min          $69-99
+    Enterprise        150      15          60 min          $149+
+
+================================================================================
+                    3. RESTRICTIONS & PROHIBITED USE
+================================================================================
+
+Licensee is STRICTLY PROHIBITED from:
+
+a) REVERSE ENGINEERING
+   - Decompiling, disassembling, or reverse engineering any part of the Software
+   - Attempting to derive source code from compiled binaries
+
+b) UNAUTHORIZED DISTRIBUTION
+   - Copying, reproducing, or distributing the Software to third parties
+   - Sublicensing, leasing, renting, or selling access to the Software
+   - Sharing login credentials or API keys
+
+c) MODIFICATION & DERIVATIVE WORKS
+   - Modifying, adapting, or creating derivative works based on the Software
+   - Removing or altering any proprietary notices, watermarks, or branding
+   - The "Lucky Joy" signature and Dmultichoice branding must remain intact
+
+d) COMMERCIAL EXPLOITATION
+   - Using the Software to create competing products or services
+   - Reselling generated content without explicit written permission
+   - White-labeling or rebranding the platform
+
+e) SECURITY VIOLATIONS
+   - Circumventing security measures or authentication systems
+   - Attempting to access data of other users
+   - Using the Software for unlawful purposes
+
+f) AI SERVICE MISUSE
+   - Extracting or harvesting OpenAI/ElevenLabs API keys
+   - Bypassing content generation limits or tier restrictions
+   - Automating requests to exceed fair usage policies
+
+================================================================================
+                         4. INTELLECTUAL PROPERTY RIGHTS
+================================================================================
+
+a) OWNERSHIP
+   All rights, title, and interest in and to the Software, including all 
+   intellectual property rights, remain the exclusive property of Dmultichoice 
+   Digital Solutions and Lucky Joy O.
+
+b) TRADEMARKS
+   - "EveryTech AI" 
+   - "EveryEye"
+   - "Lucky Joy" signature
+   - "Dmultichoice"
+   - The dmultichoice.com domain and associated marks
+   
+   are registered trademarks of Dmultichoice Digital Solutions. Unauthorized use 
+   is strictly prohibited.
+
+c) GENERATED CONTENT
+   Licensee retains rights to content generated FOR THEIR ACCOUNT, subject to:
+   - Compliance with OpenAI and ElevenLabs terms of service
+   - Non-transferability of generation credits or outputs
+   - Platform watermark removal only available at Enterprise tier
+
+d) TECHNOLOGY STACK
+   While the Software utilizes open-source components (React, Node.js, 
+   shadcn/ui, Tailwind CSS), the integration, configuration, custom services, 
+   and proprietary algorithms remain Licensor's exclusive property.
+
+================================================================================
+                         5. PRIVACY & DATA POLICY
+================================================================================
+
+a) DATA COLLECTION
+   The Software collects:
+   - Email addresses (for content delivery via Nodemailer)
+   - Name and contact information
+   - Generation topic and skill level preferences
+   - Payment information (processed via Stripe)
+   - Usage analytics and IP addresses
+
+b) DATA USAGE
+   - Personal data is used solely for service delivery and platform improvement
+   - Email addresses are stored securely in MongoDB Atlas
+   - Payment data is handled exclusively by Stripe; Licensor does not store 
+     complete payment card details
+
+c) DATA RETENTION
+   - Generated content is retained for 90 days post-delivery
+   - Account information is retained until account deletion request
+   - Backup data may be retained for up to 1 year
+
+d) THIRD-PARTY SERVICES
+   The Software integrates with:
+   - OpenAI (GPT-4, DALL-E 3) - Subject to OpenAI's Privacy Policy
+   - ElevenLabs - Subject to ElevenLabs' Terms of Service
+   - MongoDB Atlas - Subject to MongoDB's Data Processing Agreement
+   - Stripe - Subject to Stripe's Privacy Policy
+   - Gmail/Zoho - Subject to respective email provider terms
+
+e) USER RIGHTS
+   Users may request:
+   - Access to their personal data
+   - Correction of inaccurate data
+   - Deletion of their account and associated data
+   - Export of generated content
+   
+   Requests should be sent to: privacy@dmultichoice.com or +234 815 848 4621
+
+================================================================================
+                    6. PAYMENT & REFUND POLICY
+================================================================================
+
+a) PRICING
+   All prices are in USD and subject to change with 30 days notice.
+
+b) PAYMENT TERMS
+   - Full payment required before content generation begins
+   - Payments processed securely via Stripe
+   - No partial refunds for partially completed generations
+
+c) REFUND POLICY
+   - Refunds available if generation fails due to platform error
+   - No refunds for change of mind or incorrect topic input
+   - Refund requests must be made within 7 days of purchase
+   - Contact: support@dmultichoice.com or +234 815 848 4621
+
+d) DISPUTES
+   Payment disputes must first attempt resolution through Licensor's support 
+   channels before chargeback or legal action.
+
+================================================================================
+                    7. DISCLAIMER OF WARRANTIES
+================================================================================
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY 
+KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:
+
+- MERCHANTABILITY
+- FITNESS FOR A PARTICULAR PURPOSE
+- NON-INFRINGEMENT
+- ACCURACY OF AI-GENERATED CONTENT
+- UNINTERRUPTED SERVICE
+- COMPATIBILITY WITH ALL DEVICES
+
+LICENSOR DOES NOT WARRANT THAT:
+- GENERATED CONTENT WILL BE ERROR-FREE OR FACTUALLY ACCURATE
+- VIDEOS WILL MEET SPECIFIC QUALITY EXPECTATIONS BEYOND STATED SPECIFICATIONS
+- THE PLATFORM WILL BE AVAILABLE 100% OF THE TIME
+- AI SERVICES (OPENAI/ELEVENLABS) WILL REMAIN OPERATIONAL
+
+Licensee acknowledges that AI-generated content may contain inaccuracies and 
+should be reviewed before commercial use.
+
+================================================================================
+                    8. LIMITATION OF LIABILITY
+================================================================================
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, DMULTICHOICE DIGITAL SOLUTIONS, 
+LUCKY JOY O., AND AFFILIATES SHALL NOT BE LIABLE FOR:
+
+- INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES
+- LOSS OF PROFITS, REVENUE, DATA, OR BUSINESS OPPORTUNITIES
+- DAMAGES ARISING FROM AI CONTENT INACCURACIES OR OMISSIONS
+- THIRD-PARTY SERVICE OUTAGES (OPENAI, ELEVENLABS, STRIPE, ETC.)
+- UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR DATA
+
+TOTAL LIABILITY SHALL NOT EXCEED THE AMOUNT PAID BY LICENSEE FOR THE SPECIFIC 
+GENERATION REQUEST GIVING RISE TO THE CLAIM.
+
+================================================================================
+                         9. INDEMNIFICATION
+================================================================================
+
+Licensee agrees to indemnify, defend, and hold harmless Dmultichoice Digital 
+Solutions, Lucky Joy O., officers, employees, and agents from any claims, 
+damages, losses, or expenses (including reasonable attorneys' fees) arising from:
+
+- Licensee's use of the Software in violation of this Agreement
+- AI-generated content created through Licensee's account
+- Violation of third-party intellectual property rights
+- Violation of applicable laws or regulations
+
+================================================================================
+                    10. TERMINATION & SUSPENSION
+================================================================================
+
+a) TERMINATION BY LICENSEE
+   Licensee may terminate by discontinuing use and requesting account deletion.
+
+b) TERMINATION BY LICENSOR
+   Licensor may immediately suspend or terminate access for:
+   - Violation of any term of this Agreement
+   - Fraudulent payment activity
+   - Abuse of platform resources
+   - Illegal use of generated content
+   - Chargeback or payment dispute without prior contact
+
+c) EFFECT OF TERMINATION
+   Upon termination:
+   - All licenses granted herein immediately cease
+   - Licensee must destroy all copies of downloaded content
+   - Outstanding payments remain due
+   - Licensor may retain data as required by law
+
+d) SURVIVAL
+   Sections 4 (Intellectual Property), 7 (Disclaimer), 8 (Limitation of 
+   Liability), 9 (Indemnification), and 11 (Governing Law) survive termination.
+
+================================================================================
+                    11. GOVERNING LAW & JURISDICTION
+================================================================================
+
+a) GOVERNING LAW
+   This Agreement shall be governed by and construed in accordance with the 
+   laws of the Federal Republic of Nigeria, without regard to conflict of law 
+   principles.
+
+b) JURISDICTION
+   Any disputes arising from this Agreement shall be resolved exclusively in 
+   the courts of Lagos State, Nigeria.
+
+c) INTERNATIONAL USERS
+   For users outside Nigeria, this Agreement is subject to Nigerian law. 
+   Licensee is responsible for compliance with local laws regarding AI-generated 
+   content and data privacy.
+
+================================================================================
+                         12. GENERAL PROVISIONS
+================================================================================
+
+a) ENTIRE AGREEMENT
+   This Agreement constitutes the entire agreement between parties and 
+   supersedes all prior agreements.
+
+b) SEVERABILITY
+   If any provision is found unenforceable, the remainder shall continue in 
+   full force.
+
+c) WAIVER
+   Failure to enforce any provision does not constitute a waiver of future 
+   enforcement.
+
+d) ASSIGNMENT
+   Licensee may not assign this Agreement without written consent. Licensor may 
+   assign without restriction.
+
+e) NOTICES
+   All notices to Licensor: support@dmultichoice.com or +234 815 848 4621
+   
+   All notices to Licensee: Via email associated with account or platform 
+   notification.
+
+f) FORCE MAJEURE
+   Licensor is not liable for failures due to events beyond reasonable control, 
+   including third-party AI service outages.
+
+g) AMENDMENTS
+   Licensor reserves the right to modify this Agreement. Continued use after 
+   changes constitutes acceptance.
+
+h) HEADINGS
+   Section headings are for convenience only and do not affect interpretation.
+
+================================================================================
+                         13. CONTACT INFORMATION
+================================================================================
+
+For licensing inquiries, support, or legal matters:
+
+    Dmultichoice Digital Solutions
+    Owner: Lucky Joy O.
+    Website: https://dmultichoice.com
+    Email: support@dmultichoice.com
+    Phone: +234 815 848 4621
+    License Code: EYE-234-815-848-4621-2026
+    
+    Business Hours: Monday - Friday, 9:00 AM - 6:00 PM WAT
+
+================================================================================
+                         14. ACCEPTANCE
+================================================================================
+
+BY ACCESSING, DOWNLOADING, INSTALLING, OR USING THE EVERYTECH AI PLATFORM, 
+LICENSEE ACKNOWLEDGES THAT THEY HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND 
+BY ALL TERMS OF THIS LICENSE AGREEMENT.
+
+If Licensee does not agree to these terms, they must immediately cease all use 
+of the Software and destroy any downloaded materials.
+
+================================================================================
+
+                    Copyright (c) 2026 Dmultichoice Digital Solutions
+                           All Rights Reserved.
+                           
+                           License Version 1.0
+                           Effective Date: March 27, 2026
+                           License Code: EYE-234-815-848-4621-2026
+
+================================================================================
