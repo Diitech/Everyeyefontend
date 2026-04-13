@@ -16,7 +16,7 @@ const Home = lazy(() => import('@/pages/Home').then(m => ({ default: m.Home })))
 const Products = lazy(() => import('@/pages/Products').then(m => ({ default: m.Products })));
 const ProductDetail = lazy(() => import('@/pages/ProductDetail').then(m => ({ default: m.ProductDetail })));
 const Checkout = lazy(() => import('@/pages/Checkout').then(m => ({ default: m.Checkout })));
-const CheckoutSuccess = lazy(() => import('@/pages/CheckoutSuccess').then(m => ({ default: m.CheckoutSuccess })));
+const CheckoutSuccess = lazy(() => import('@/pages/CheckoutSuccess'));
 const CheckoutCancel = lazy(() => import('@/pages/CheckoutCancel').then(m => ({ default: m.CheckoutCancel })));
 const Admin = lazy(() => import('@/pages/Admin').then(m => ({ default: m.Admin })));
 const Account = lazy(() => import('@/pages/Account').then(m => ({ default: m.Account })));
@@ -40,6 +40,7 @@ const Privacy = lazy(() => import('@/pages/Privacy').then(m => ({ default: m.Pri
 const Terms = lazy(() => import('@/pages/Terms').then(m => ({ default: m.Terms })));
 const Cookies = lazy(() => import('@/pages/Cookies').then(m => ({ default: m.Cookies })));
 const GDPR = lazy(() => import('@/pages/GDPR').then(m => ({ default: m.GDPR })));
+const Buy = lazy(() => import('@/pages/Buy'));
 
 function PageLoader() {
   return (
@@ -120,6 +121,9 @@ function App() {
                   <Route path="/courses" element={<Courses />} />
                   <Route path="/ai-tools" element={<AITools />} />
                   <Route path="/memberships" element={<Memberships />} />
+
+                  {/* Sales Page */}
+                  <Route path="/buy" element={<Buy />} />
 
                   {/* Navigation Pages */}
                   <Route path="/learn" element={

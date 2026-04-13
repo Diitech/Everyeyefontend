@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, ArrowRight, Bot, MessageSquare, Image, Code, FileText, Play, Check } from 'lucide-react';
+import { ArrowLeft, ArrowRight, Bot, MessageSquare, Image, Code, FileText, Play, } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ProductCard } from '@/components/ProductCard';
 import { SEO } from '@/components/SEO';
