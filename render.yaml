@@ -1,0 +1,21 @@
+services:
+  # Backend API
+  - type: web
+    name: everyeye-api
+    runtime: node
+    buildCommand: cd server && npm install
+    startCommand: cd server && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+
+  # React Frontend (Vite)
+  - type: static
+    name: everyeye-admin
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
