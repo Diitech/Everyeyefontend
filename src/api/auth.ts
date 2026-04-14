@@ -1,7 +1,7 @@
 const API_URL = "https://everyeye-server.onrender.com";
 
 export const loginUser = async (email: string, password: string) => {
-  const res = await fetch(`${API_URL}/login`, {
+  const res = await fetch(`${API_URL}/api/auth/login`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ email, password }),
@@ -16,7 +16,7 @@ export const registerUser = async (
   email: string,
   password: string,
 ) => {
-  const res = await fetch(`${API_URL}/register`, {
+  const res = await fetch(`${API_URL}/api/auth/register`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ name, email, password }),
@@ -27,13 +27,13 @@ export const registerUser = async (
 };
 
 export const loginWithGoogle = () => {
-  window.location.href = `${API_URL}/google`;
+  window.location.href = `${API_URL}/api/auth/google`;
 };
 
 export const getCurrentUser = async () => {
   const token = localStorage.getItem("token");
   if (!token) return null;
-  const res = await fetch(`${API_URL}/me`, {
+  const res = await fetch(`${API_URL}/api/auth/me`, {
     headers: { Authorization: `Bearer ${token}` },
   });
   if (!res.ok) {
